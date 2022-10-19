@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+body{
+    background-color: red;
+}
+
 @media screen and (min-width: 768px){
 
     #contact{
