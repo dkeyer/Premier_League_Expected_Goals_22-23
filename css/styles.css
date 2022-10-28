@@ -1,75 +1,71 @@
-
-.main-header{
-    text-align: center;
+.main-header {
+  text-align: center;
 }
 
-body{
-    background-color: red;
+body {
+  background-color: red;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
+  #contact {
+    max-width: 50%;
+  }
 
-    #contact{
-        max-width: 50%;
-    }
-
-    body{
-        margin: 0 2rem;
-    }
-
+  body {
+    margin: 0 2rem;
+  }
 }
 
-@media screen and (min-width:1024px){
-    .descrip{
-        flex-direction: column;
-    }
-    .recipe{
-        flex-direction: row;
-        justify-content: space-around;
-        
-    }
+@media screen and (min-width: 1024px) {
+  .descrip {
+    flex-direction: column;
+  }
+  .recipe {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-    .recipeHeader{
-        flex-basis: calc(100%/3);
-        position: relative;
-        overflow: hidden;
-        border-radius: 5px 0 0 5px;
-        display: flex;
-        justify-content: center;
-    }
+  .recipeHeader {
+    flex-basis: calc(100% / 3);
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    justify-content: center;
+  }
 
-    .instructions{
-        flex-direction: row;
-        flex-basis: calc(100% * (2/3));
-        justify-content: space-around;
-    }
+  .instructions {
+    flex-direction: row;
+    flex-basis: calc(100% * (2 / 3));
+    justify-content: space-around;
+  }
 
-    #contact{
-        max-width: 30%;
-    }
+  #contact {
+    max-width: 30%;
+  }
 
-    .pic{
-        position: absolute;
-        max-width: 100%;
-        top: 0px;
-        left: 0px;
-        z-index: 1;
-    }
+  .pic {
+    position: absolute;
+    max-width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+  }
 
-    .overlay{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0px;
-        left: 0px;
-        background: rgba(0,0,0,0.5);
-        z-index: 10;
-    }
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
 
-    .recipeDescription{
-        z-index: 11;
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-    }
+  .recipeDescription {
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
 }
